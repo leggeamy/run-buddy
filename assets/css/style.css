@@ -266,6 +266,21 @@ section {
     font-size: 17px;
 }
 
+/*Service Plan STYLES START */
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+
+/*Service Plan STYLES END */
+
 /*REACH OUT STYLES START */
 .contact {
     background: #024e76;
@@ -356,6 +371,8 @@ section {
 .flex-row {
     display: flex;
 }
+
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
